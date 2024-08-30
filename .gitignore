@@ -1,0 +1,70 @@
+# Archivos y carpetas de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyo
+*.pyd
+/static/
+
+# Entornos Virtuales
+venv/
+.env/
+*.env
+
+# Archivos de configuración del entorno
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Cachés de compilación
+*.py[cod]
+*.pyo
+
+# Archivos de configuración de IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de paquetes
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+
+# Archivos de datos de instalación de paquetes
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de configuración de Uvicorn
+*.log
+*.pid
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de editor
+*~
+*.swp
+*.swo
+
+# Archivos de base de datos temporales
+*.sqlite3
+*.db
+
+# Archivos y carpetas generados por pruebas
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.tmp
+*.temp
+
+# Archivos de documentación generada
+docs/_build/
